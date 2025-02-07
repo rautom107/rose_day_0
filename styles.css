@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'PingFang SC', 'Lantinghei SC', 'Microsoft Yahei', 'Hiragino Sans GB', 'Microsoft Sans Serif', 'WenQuanYi Micro Hei', sans-serif;
+    background-color: #d407ab63;
+    color: #710909;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+span{
+    color:#9d0606;
+    font-style:initial;
+}
+#content {
+    text-align: center;
+    z-index: 10;
+    position: relative;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+}
+
+p {
+    font-size: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+#message-container {
+    margin: 2em 0;
+    color:#9d0606 ;
+   
+}
+
+#create-button {
+    font-size: 1.2em;
+    padding: 0.5em 1em;
+    background-color: #ff4d4d;
+    color: rgb(5, 0, 0);
+    border: none;
+    bottom: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#create-button:hover {
+    background-color: #e71111;
+}
+
+.canvas-container {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color:  #d97bc663 ;
+}
+
+canvas {
+    display: inline-block;
+    transform: scale(1.5);
+    transform-origin: bottom center;
+    background-color: #c72727;
+}
